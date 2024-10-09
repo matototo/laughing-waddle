@@ -17,25 +17,57 @@
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="nav" id="">
-            <div class="links">
-                <a href="/home">Home</a>
-                <a href="/about">About us</a>
-                <a href="/article">Articles</a>
-                <a href="/contact">Contact us !</a>
+        <nav class="header_navigation" id="">
+            <div class="header_navigation-haut">
+                <nav class="navigation_reseaux">
+                    <div>
+                        <a class="social__link" href="https://www.facebook.com/">
+                            <img class="social__icon" src="{{ asset('svg')}}/icon_facebook.svg" width="16" height="16"
+                                alt="Facebook">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="social__link" href="https://www.instagram.com/">
+                            <img class="social__icon" src="{{ asset('svg')}}/icon_instagram.svg" width="16" height="16"
+                                alt="Instagram">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="social__link" href="https://www.linkedin.com/">
+                            <img class="social__icon" src="{{ asset('svg')}}/icon_linkedin.svg" width="16" height="16"
+                                alt="LinkedIn">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="social__link" href="https://www.youtube.com/">
+                            <img class="social__icon" src="{{ asset('svg')}}/icon_youtube.svg" width="16" height="16"
+                                alt="Youtube">
+                        </a>
+                    </div>
+                </nav>
             </div>
+            <nav class="first-nav">
+                <div class="center">
+                    <a href="/">Home</a>
+                    <a href="/about">About us</a>
+                    <a href="/article">Articles</a>
+                    <a href="/contact">Contact us !</a>
+                </div>
+            </nav>
         </nav>
         <!-- Content -->
         @yield('content')
         <!-- Footer-->
-        <footer class="border-top">
-            <div class="links">
-                <a href="/home">Home</a>
-                <a href="/about">About us</a>
-                <a href="/article">Articles</a>
-                <a href="/contact">Contact us !</a>
+        <footer>
+            
+            <div class="footer-bottom">
+                <div>© 2024 Exercice 01 Laravel</div>
+                <div>
+                    <a href="#">Terms</a> |
+                    <a href="#">Privacy</a>
+                </div>
             </div>
-        </footer>
+    </footer>
         <!-- Bootstrap core JS-->
         <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
         <!-- Core theme JS-->
