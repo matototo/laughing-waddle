@@ -2,9 +2,74 @@
 @section('title', 'Home')
 @section('content')
 <main>
-    // html home code goes here
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, illo at hic id, non ad odit autem error modi asperiores eos praesentium tempore quos magnam? Consequatur eligendi natus, ab pariatur voluptatem modi optio beatae odit tempore dolorum dolore commodi alias odio incidunt quisquam perspiciatis illo rerum minus, nesciunt dolorem distinctio sint, earum amet? Atque reprehenderit deserunt itaque corporis, asperiores unde provident molestias dolorum sunt consequuntur assumenda neque dolore blanditiis rerum, pariatur possimus porro doloremque totam tempora magnam, autem voluptas? Aut sint obcaecati exercitationem dolore dolores nemo, commodi necessitatibus, tenetur velit deserunt odio veritatis. Laborum autem labore dolore similique, nam voluptate quas nemo cupiditate culpa alias ipsam dicta, minima et necessitatibus porro mollitia ducimus odit amet eum! Similique minima iure tempore hic natus odio laboriosam tempora enim sint ipsum aut dicta voluptas inventore vel molestiae, nisi autem quisquam, corrupti labore modi! Voluptates itaque quod quam magni exercitationem, velit, recusandae aut nostrum earum saepe placeat quidem magnam animi quas impedit, beatae nobis nam ad! Dicta iusto esse vel molestias eligendi velit reprehenderit nisi, harum quia asperiores dignissimos consequuntur ex beatae corrupti minima quibusdam autem consequatur adipisci magni architecto quisquam distinctio explicabo animi. Excepturi ad at ut nemo incidunt, vitae sequi beatae, culpa doloremque sit eos eius modi, aut molestiae ratione laudantium illo odit assumenda asperiores ducimus voluptas quae. Nihil obcaecati, modi dignissimos accusantium rem quisquam ut repellendus ipsum totam sint, assumenda corrupti? Quos nisi cumque voluptatum blanditiis eos porro ad? Minima corporis nihil sint numquam! Deserunt blanditiis aspernatur modi incidunt, fugiat asperiores maiores odio amet perferendis quo laboriosam quasi odit, cumque magni ipsa ex perspiciatis dolorum pariatur a tenetur voluptatum, facere sequi! Voluptate eveniet sint vitae, eligendi architecto a dolorum similique qui doloremque nobis voluptatem facilis, ullam rerum deleniti, minus consectetur dicta et! Odit error delectus reiciendis aut. Nesciunt quae magni error voluptate laboriosam. Tempora aperiam soluta dolore, iste vel rem voluptas commodi corrupti? A nulla dignissimos velit doloribus pariatur similique ea voluptate ut aut, hic saepe fugit error ab, laboriosam nemo architecto explicabo! Ratione ipsum, deleniti consequatur dicta consequuntur modi necessitatibus, enim similique omnis itaque doloribus quod fuga inventore molestiae asperiores, commodi sint? Atque, quod maxime! Quibusdam sapiente quae blanditiis. Culpa, fugiat cumque autem aliquid mollitia dolorem architecto labore inventore reprehenderit repudiandae numquam, repellendus cum perferendis tenetur temporibus quidem dolores aut facere in consequatur iusto! Obcaecati dolores ab sunt impedit quam soluta quasi ut aperiam incidunt. Qui eos pariatur praesentium illo.</p>
+    <!-- // html home code goes here -->
+     <!-- À PROPOS DU LORD -->
+     <section>
+        <div class="flex-row-lord lord">
+            <div class="text-lord">
+                <h2>Notre mission</h2>
+                <p>Lord Reginald Stampee III, duc de Worcessteshear et philatéliste depuis sa tendre enfance au
+                    milieu
+                    des années cinquante. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                    provident
+                    adipisci nesciunt non commodi nihil enim inventore eum maxime ipsum id ipsam a vero, ut suscipit
+                    reiciendis facilis. Error, tempore!
+                    Ad sequi consequatur, provident soluta iure iusto error velit quasi facere rem odit, unde atque
+                    sunt
+                    exercitationem porro totam laboriosam ea dolore obcaecati cupiditate? Rerum, optio! Aspernatur
+                    eius
+                    iure ipsa.</p>
+            </div>
+
+        </div>
     </section>
+   <!-- ACTUALITES -->
+   <header class="title">
+        <h2>Actualités</h2>
+    </header>
+    <div class="news-grid">
+        <!-- DEBUT ACTUALITE 01 -->
+        <article>
+            <small>05 septembre 2024</small>
+            <h3>Lorem Impsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae facilis, enim alias molestiae
+                recusandae
+                officia nostrum repellat, culpa nulla ea consequuntur iure? Veritatis eos qui ducimus at consectetur
+                maxime pariatur!</p>
+        </article>
+        <!-- FIN ACTUALITE 01 -->
+        <!-- DEBUT ACTUALITE 02 -->
+        <article>
+            <small>01 septembre 2024</small>
+            <h3>Lorem Impsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae facilis, enim alias molestiae
+                recusandae
+                officia nostrum repellat, culpa nulla ea consequuntur iure? Veritatis eos qui ducimus at consectetur
+                maxime pariatur!</p>
+        </article>
+        <!-- FIN ACTUALITE 02 -->
+        <!-- DEBUT ACTUALITE 03 -->
+        <article>
+            <small>31 aout 2024</small>
+            <h3>Lorem Impsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae facilis, enim alias molestiae
+                recusandae
+                officia nostrum repellat, culpa nulla ea consequuntur iure? Veritatis eos qui ducimus at consectetur
+                maxime pariatur!</p>
+        </article>
+        <!-- FIN ACTUALITE 03 -->
+        <!-- DEBUT ACTUALITE 04 -->
+        <article>
+            <small>28 aout 2024</small>
+            <h3>Lorem Impsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae facilis, enim alias molestiae
+                recusandae
+                officia nostrum repellat, culpa nulla ea consequuntur iure? Veritatis eos qui ducimus at consectetur
+                maxime pariatur!</p>
+        </article>
+        <!-- FIN ACTUALITE 04 -->
+    </div>
+
+   
 </main>
 @endsection('content')
