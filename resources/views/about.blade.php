@@ -3,22 +3,15 @@
 @section('content')
 <main>
     <!-- // html about code goes here -->
+    <section class="hero">
+     <picture><img src="{{ asset('img/city.jpg')}}" alt="Picture of the sea by Reynaldo #brigworkz Brigantty" class="img-hero"></picture>
+     </section>
     <!-- À PROPOS DU LORD -->
     <section>
         <div class="flex-row-lord lord">
             <div class="text-lord">
                 <h2>Qui somme nous?</h2>
-                <p>Lord Reginald Stampee III, duc de Worcessteshear et philatéliste depuis sa tendre enfance au
-                    milieu
-                    des années cinquante. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-                    provident
-                    adipisci nesciunt non commodi nihil enim inventore eum maxime ipsum id ipsam a vero, ut suscipit
-                    reiciendis facilis. Error, tempore!
-                    Ad sequi consequatur, provident soluta iure iusto error velit quasi facere rem odit, unde atque
-                    sunt
-                    exercitationem porro totam laboriosam ea dolore obcaecati cupiditate? Rerum, optio! Aspernatur
-                    eius
-                    iure ipsa.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione asperiores nemo recusandae incidunt esse mollitia magni molestiae quos quaerat vero. Vel hic fugiat dicta! Necessitatibus illum ullam voluptate numquam? Vero deleniti temporibus eius ullam! Ut corporis maiores repellat tempore!</p>
             </div>
 
         </div>

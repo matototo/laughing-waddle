@@ -3,23 +3,17 @@
 @section('content')
 <main>
     <!-- // html home code goes here -->
+     <section class="hero">
+     <picture><img src="{{ asset('img/sea.jpg')}}" alt="Picture of the sea by Clem Onojeghuo" class="img-hero"></picture>
+     </section>
      <!-- À PROPOS DU LORD -->
      <section>
         <div class="flex-row-lord lord">
             <div class="text-lord">
                 <h2>Notre mission</h2>
-                <p>Lord Reginald Stampee III, duc de Worcessteshear et philatéliste depuis sa tendre enfance au
-                    milieu
-                    des années cinquante. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-                    provident
-                    adipisci nesciunt non commodi nihil enim inventore eum maxime ipsum id ipsam a vero, ut suscipit
-                    reiciendis facilis. Error, tempore!
-                    Ad sequi consequatur, provident soluta iure iusto error velit quasi facere rem odit, unde atque
-                    sunt
-                    exercitationem porro totam laboriosam ea dolore obcaecati cupiditate? Rerum, optio! Aspernatur
-                    eius
-                    iure ipsa.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, repellat? Saepe, nesciunt laborum dolore maiores nostrum minus illo molestias autem aspernatur quo, ullam laboriosam qui impedit, optio voluptatum expedita officia. Tempora, et maiores at molestias qui nemo sequi similique quae, officiis non, rem possimus nihil ex temporibus saepe mollitia quia sed quos soluta excepturi atque consequatur placeat. Sed tempore aliquid totam possimus quisquam quis fugiat officia cupiditate molestias doloremque?</p>
             </div>
+            
 
         </div>
     </section>

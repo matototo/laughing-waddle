@@ -2,7 +2,10 @@
 @section('title', 'Home')
 @section('content')
 <main>
-    // html article code goes here
+    <!-- // html article code goes here -->
+    <section class="hero">
+     <picture><img src="{{ asset('img/blueberry.jpg')}}" alt="Picture of blueberries by veeterzy" class="img-hero"></picture>
+     </section>
     <header class="header-page">
         <div>
             <h2>Catalogue d’articles</h2>
@@ -17,7 +20,7 @@
     </header>
     <div class="filtres flex-row">
             <aside class="filtres">
-                <div class="flex-row">
+                <div class="flex-article">
                     <h4>Filtres:</h4>
                     <p class="effacer">Réinitialiser</p>
                 </div>
@@ -34,27 +37,10 @@
                         <input type="checkbox" name="accordion-1" id="cb2">
                         <label for="cb2" class="tab__label">Catégories</label>
                         <div class="tab__content">
-                            <p>Raretés</p>
-                            <p>Coups de couer du Lord</p>
-                        </div>
-                    </div>
-                    <div class="tab">
-                        <input type="checkbox" name="accordion-1" id="cb3">
-                        <label for="cb3" class="tab__label">Pays</label>
-
-                        <div class="tab__content">
-                            <p>Angleterre</p>
-                            <p>Canada</p>
-                            <p>États-Unis</p>
-                        </div>
-                    </div>
-                    <div class="tab">
-                        <input type="checkbox" name="accordion-1" id="cb4">
-                        <label for="cb4" class="tab__label">Couleur</label>
-                        <div class="tab__content">
-                            <p>Rouge</p>
-                            <p>Bleu</p>
-                            <p>Vert</p>
+                            <p>Catégorie 1</p>
+                            <p>Catégorie 2</p>
+                            <p>Catégorie 3</p>
+                            <p>Catégorie 4</p>
                         </div>
                     </div>
                 </section>
@@ -63,7 +49,7 @@
             <div class="grille">
                 <!-- CARTE DEBUT-->
                 <article class="carte">
-                    <header class="status flex-row">
+                    <header class="status flex-article">
                         <div class="status"><span class="status-rouge">Status</span></div>
                         <div class="date">Date</div>
                     </header>
@@ -73,19 +59,17 @@
                             <h3>NOM DE L'ARTICLE</h3>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
-                                <div>Parution récente : <span class="nomdumembre">NOM DU MEMBRE</span></div>
-                            </div>
+                            
                             <div class="mises">Quantité d'articles : 3</div>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
+                            <div class="flex-article">
                                 <div>Refferences :</div>
                                 <div>NOM DE LA REFFERENCE</div>
                             </div>
                         </div>
                     </div>
-                    <div class="offre flex-row justify">
+                    <div class="offre flex-article">
                         <div>
                         <button><a href="#">Plus d'information</a></button>
                     </div>
@@ -93,7 +77,7 @@
                 <!-- CARTE FIN-->
                  <!-- CARTE DEBUT-->
                 <article class="carte">
-                    <header class="status flex-row">
+                    <header class="status flex-article">
                         <div class="status"><span class="status-rouge">Status</span></div>
                         <div class="date">Date</div>
                     </header>
@@ -103,19 +87,17 @@
                             <h3>NOM DE L'ARTICLE</h3>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
-                                <div>Parution récente : <span class="nomdumembre">NOM DU MEMBRE</span></div>
-                            </div>
+                            
                             <div class="mises">Quantité d'articles : 3</div>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
+                            <div class="flex-article">
                                 <div>Refferences :</div>
                                 <div>NOM DE LA REFFERENCE</div>
                             </div>
                         </div>
                     </div>
-                    <div class="offre flex-row justify">
+                    <div class="offre flex-article">
                         <div>
                         <button><a href="#">Plus d'information</a></button>
                     </div>
@@ -123,7 +105,7 @@
                 <!-- CARTE FIN-->
                  <!-- CARTE DEBUT-->
                 <article class="carte">
-                    <header class="status flex-row">
+                    <header class="status flex-article">
                         <div class="status"><span class="status-rouge">Status</span></div>
                         <div class="date">Date</div>
                     </header>
@@ -133,19 +115,17 @@
                             <h3>NOM DE L'ARTICLE</h3>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
-                                <div>Parution récente : <span class="nomdumembre">NOM DU MEMBRE</span></div>
-                            </div>
+                            
                             <div class="mises">Quantité d'articles : 3</div>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
+                            <div class="flex-article">
                                 <div>Refferences :</div>
                                 <div>NOM DE LA REFFERENCE</div>
                             </div>
                         </div>
                     </div>
-                    <div class="offre flex-row justify">
+                    <div class="offre flex-article">
                         <div>
                         <button><a href="#">Plus d'information</a></button>
                     </div>
@@ -153,7 +133,7 @@
                 <!-- CARTE FIN-->
                  <!-- CARTE DEBUT-->
                 <article class="carte">
-                    <header class="status flex-row">
+                    <header class="status flex-article">
                         <div class="status"><span class="status-rouge">Status</span></div>
                         <div class="date">Date</div>
                     </header>
@@ -163,19 +143,17 @@
                             <h3>NOM DE L'ARTICLE</h3>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
-                                <div>Parution récente : <span class="nomdumembre">NOM DU MEMBRE</span></div>
-                            </div>
+                            
                             <div class="mises">Quantité d'articles : 3</div>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
+                            <div class="flex-article">
                                 <div>Refferences :</div>
                                 <div>NOM DE LA REFFERENCE</div>
                             </div>
                         </div>
                     </div>
-                    <div class="offre flex-row justify">
+                    <div class="offre flex-article">
                         <div>
                         <button><a href="#">Plus d'information</a></button>
                     </div>
@@ -183,7 +161,7 @@
                 <!-- CARTE FIN-->
                  <!-- CARTE DEBUT-->
                 <article class="carte">
-                    <header class="status flex-row">
+                    <header class="status flex-article">
                         <div class="status"><span class="status-rouge">Status</span></div>
                         <div class="date">Date</div>
                     </header>
@@ -193,19 +171,17 @@
                             <h3>NOM DE L'ARTICLE</h3>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
-                                <div>Parution récente : <span class="nomdumembre">NOM DU MEMBRE</span></div>
-                            </div>
+                            
                             <div class="mises">Quantité d'articles : 3</div>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
+                            <div class="flex-article">
                                 <div>Refferences :</div>
                                 <div>NOM DE LA REFFERENCE</div>
                             </div>
                         </div>
                     </div>
-                    <div class="offre flex-row justify">
+                    <div class="offre flex-article">
                         <div>
                         <button><a href="#">Plus d'information</a></button>
                     </div>
@@ -213,7 +189,7 @@
                 <!-- CARTE FIN-->
                  <!-- CARTE DEBUT-->
                 <article class="carte">
-                    <header class="status flex-row">
+                    <header class="status flex-article">
                         <div class="status"><span class="status-rouge">Status</span></div>
                         <div class="date">Date</div>
                     </header>
@@ -223,19 +199,17 @@
                             <h3>NOM DE L'ARTICLE</h3>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
-                                <div>Parution récente : <span class="nomdumembre">NOM DU MEMBRE</span></div>
-                            </div>
+                            
                             <div class="mises">Quantité d'articles : 3</div>
                         </div>
                         <div class="flex-column produit-info border">
-                            <div class="flex-row justify">
+                            <div class="flex-article">
                                 <div>Refferences :</div>
                                 <div>NOM DE LA REFFERENCE</div>
                             </div>
                         </div>
                     </div>
-                    <div class="offre flex-row justify">
+                    <div class="offre flex-article">
                         <div>
                         <button><a href="#">Plus d'information</a></button>
                     </div>
